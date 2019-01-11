@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.activity.AreaActivity"
+    android:background="@drawable/shape"
+
+    >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+
+        />
+
+<android.support.design.widget.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/shape"
+    app:itemIconTint="@drawable/state"
+    app:itemTextColor="@drawable/state"
+    app:menu="@menu/bottom_navigation"
+    android:id="@+id/bottom_navgation"
+
+    >
+
+</android.support.design.widget.BottomNavigationView>
+
+    <!--
+    <de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="220dp"
+    android:layout_height="110dp"
+    android:id="@+id/img_profile"
+    android:src="@drawable/ic_launcher_background"
+    android:layout_gravity="center"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama"
+        android:hint="@string/nama"
+        android:textSize="20sp"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="@string/email"
+        android:textSize="20sp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycleview_product"
+        android:layout_marginBottom="10dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/view_pdf"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:id="@+id/view_pdf"
+
+        android:textAllCaps="false"
+
+
+        />
+
+    <android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/recycleview">
+
+
+  </android.support.v7.widget.RecyclerView>
+
+!-->
+
+</RelativeLayout>

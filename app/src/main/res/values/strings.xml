@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TestMagang</string>
+    <string name="password">password</string>
+    <string name="nik">NIK</string>
+    <string name="ketik_nomor">Ketik nomor...</string>
+    <string name="input">Input</string>
+    <string name="logout">Logout</string>
+    <string name="nama">nama</string>
+    <string name="email">email</string>
+    <string name="admin">Admin</string>
+    <string name="subject">Subject</string>
+    <string name="sender">Sender</string>
+    <string name="view_pdf">View Pdf</string>
+    <string name="area">Area</string>
+    <string name="product">Product</string>
+    <string name="account">Account</string>
+
+    <string-array name="bilangan">
+        <item>Bilangan Genap</item>
+        <item>Bilangan Ganjil</item>
+    </string-array>
+
+    <string-array name="deskripsi">
+       <item>Deskripsi data 1</item>
+       <item>Deskripsi data 2</item>
+       <item>Deskripsi data 3</item>
+       <item>Deskripsi data 4</item>
+       <item>Deskripsi data 5</item>
+       <item>Deskripsi data 6 </item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="level">Level</string>
+    <string name="nomor">Nomor</string>
+    <string name="deskripsi">Deskripsi</string>
+</resources>
